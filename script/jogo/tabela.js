@@ -9,6 +9,7 @@ document.addEventListener("DOMContentLoaded", async function () {
             { titulo: 'Descricao', dado: 'descricao' },
             { titulo: 'Valor', dado: 'valor' },
             { titulo: 'Preco de Custo', dado: 'pCusto' },
+            { titulo: 'Data de Lancamento:', dado: 'dataLancamento' }
         ],
         exibeEditar: true,
         idEnvio: 'id',

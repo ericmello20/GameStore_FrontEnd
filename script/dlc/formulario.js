@@ -8,7 +8,8 @@ document.addEventListener("DOMContentLoaded", async function () {
             { titulo: 'Descricao', dado: 'descricao', tipo: 'textoLongo', obrigatorio: true },
             { titulo: 'Valor', dado: 'valor', tipo: 'numero', obrigatorio: true },
             { titulo: 'Preco de Custo', dado: 'pCusto', tipo: 'numero', obrigatorio: true },
-            { titulo: 'Jogo Base', dado: 'jogo', dadoExibicao: 'jogo.nome', urlConsulta: 'http://localhost:8080/game/jogos', tipo: 'relacionamento', obrigatorio: true }
+            { titulo: 'Jogo Base', dado: 'jogoBase', dadoExibicao: 'jogoBase.nome', urlConsulta: 'http://localhost:8080/game/jogos', tipo: 'relacionamento', obrigatorio: true },
+            { titulo: 'Data de Lancamento:', dado: 'dataLancamento', tipo: 'data', obrigatorio: true }
         ],
         idObjeto: 'id',
         urlCadastrar: 'http://localhost:8080/game/dlcs',

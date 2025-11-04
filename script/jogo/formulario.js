@@ -7,7 +7,8 @@ document.addEventListener("DOMContentLoaded", async function () {
             { titulo: 'Descricao', dado: 'descricao', tipo: 'textoLongo', obrigatorio: true },
             { titulo: 'Desenvolvedora', dado: 'desenvolvedora', tipo: 'textoCurto', obrigatorio: true },
             { titulo: 'Valor', dado: 'valor', tipo: 'numero', obrigatorio: true },
-            { titulo: 'Preco de Custo', dado: 'pCusto', tipo: 'numero', obrigatorio: true }
+            { titulo: 'Preco de Custo', dado: 'pCusto', tipo: 'numero', obrigatorio: true },
+            { titulo: 'Data de Lancamento:', dado: 'dataLancamento', tipo: 'data', obrigatorio: true }
         ],
         idObjeto: 'id',
         urlCadastrar: 'http://localhost:8080/game/jogos',
