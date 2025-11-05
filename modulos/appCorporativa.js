@@ -254,10 +254,7 @@ const appCorporativa = {
             });
 
             const metodo = idEdicao ? "PUT" : "POST";
-            const urlEnvio = idEdicao
-                ? `${parametros.urlEditar}/${idEdicao}`
-                : parametros.urlCadastrar;
-
+            const urlEnvio = idEdicao ? `${parametros.urlEditar}/${idEdicao}` : parametros.urlCadastrar;
 
             console.log("Enviando objeto final:", obj);
 
