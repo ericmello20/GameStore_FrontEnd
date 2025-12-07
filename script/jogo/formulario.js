@@ -12,8 +12,9 @@ document.addEventListener("DOMContentLoaded", async function () {
         ],
         idObjeto: 'id',
         urlCadastrar: 'http://localhost:8080/game/jogos',
-        urlEditar: 'http://localhost:8080/game/jogos',
+        urlEditar: 'http://localhost:8080/game/jogos/',
         urlCargaDados: 'http://localhost:8080/game/jogos/id=',
+        token: localStorage.getItem("tokenAppCorporativa")
     };
     await appCorporativa.criarFormulario(
         parametros
